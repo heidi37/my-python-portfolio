@@ -6,10 +6,9 @@
     {% for project in projects %}
     <div class="featured-project mt-5 mb-5">
       <div class="featured-first-col">
-        <span class="post-image-rounded"
-          ><a href=""
-            ><img src="{{ project.image }}" alt="{{ project.name}}" /></a
-        ></span>
+        <a href="{{ project.live }}"
+          ><img src="{{ project.image }}" alt="{{ project.name}}"
+        /></a>
       </div>
       <div class="featured-second-col">
         <h3 class="mb-3">{{project.name}}</h3>
@@ -20,8 +19,16 @@
         </div>
         <p class="mt-2">{{ project. description}}</p>
         <p>
-          <a class="button button-small d-inline-block" href="{{ project.live }}">Project &raquo;</a>
-          <a class="button button-small d-inline-block" href="{{ project.repo }}">Repo &raquo;</a>
+          <a
+            class="button button-small d-inline-block"
+            href="{{ project.live }}"
+            >Project &raquo;</a
+          >
+          <a
+            class="button button-small d-inline-block"
+            href="{{ project.repo }}"
+            >Repo &raquo;</a
+          >
         </p>
       </div>
     </div>
