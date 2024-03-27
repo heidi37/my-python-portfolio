@@ -1,9 +1,3 @@
-/*
-  Theme Name: HF Portfolio Theme
-  Author: Heidi Fryzell
-  Version: 1.0
-  */
-
 :root {
   --primary-color: #404fa0;
   --primary-light: #404ea00f;
@@ -16,89 +10,6 @@
   --body-text: #222222;
   --code: #d63384;
   --tech-stack: #ffc1078b;
-}
-
-/* Content Editor Styles */
-
-.site-main {
-  max-width: 1000px;
-  margin: 4rem auto 2rem;
-  padding: 2rem 2rem 1rem;
-}
-
-/* h2.wp-block-heading {
-  margin-bottom: 2rem;
-} */
-
-/* Blog Styles */
-
-.blog-list-items {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  background: #fff;
-  padding: 2rem;
-  border-radius: 10px;
-}
-
-.blog-list-items h2 a {
-  text-decoration: none;
-}
-
-.blog-info-box {
-  font-family: "Roboto", sans-serif;
-  font-size: 0.8rem;
-  font-weight: 400;
-  width: fit-content;
-  margin-top: .4rem;
-}
-
-.blog-info-box p {
-  margin: 0;
-}
-
-.blog-generic-content {
-  display: flex;
-  flex-direction: column-reverse;
-  column-gap: 2rem;
-}
-
-.blog-generic-content img {
-  width: 100%;
-  min-width: 200px;
-  height: auto;
-  display: block;
-  object-fit: cover;
-  border: 1px solid #ddd;
-  margin: .5rem 0;
-}
-
-.blog-generic-content + p {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.blog-generic-content .nav-link {
-  text-decoration: underline;
-}
-
-.pagination {
-  font-weight: 800;
-}
-
-.page-numbers {
-  padding: 0.15rem;
-}
-
-.blog-page-banner__bg-image {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 400px;
-  border-radius: 10px;
-}
-
-.blog-page-content {
-  margin-top: 2rem;
 }
 
 /* Base Styles */
@@ -176,11 +87,6 @@ small {
   font-size: 0.775rem;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-}
-
-.wp-block-code code {
-  font-size: .875em;
-  color: #d63384;
 }
 
 .container {
@@ -261,6 +167,12 @@ footer  p {
   font-weight: 400;
 }
 
+.button-small {
+  margin-top: 0;
+  font-size: 1rem;
+  padding: 0.25rem 1rem;
+}
+
 .button:hover {
   color: white;
   background: var(--primary-hover);
@@ -331,81 +243,32 @@ button.navbar-toggler {
   margin-top: 1rem;
 }
 
-.post-image-rounded a img {
-  border-radius: 10px;
-  border: 1px solid #ddd;
-}
-
-.year-pill {
+.pill {
   background-color: var(--pill-color);
   color: white;
-  font-weight: bold;
   padding: 0.1rem 0.5rem 0.2rem;
   border-radius: 5px;
   margin-right: .5rem;
-  opacity: 0.75;
+  opacity: 1;
+  font-size: 0.8rem;
 }
 
-.featured-blog-outer{
-  padding: 4rem 2rem;
+/* Tech Stack */
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  justify-content: center;
 }
-
-/* Breadcrumbs */
-
-ul.breadcrumbs {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-ul.breadcrumbs li {
-  display: inline-block;
-  margin-right: 5px;
-}
-
-ul.breadcrumbs li:not(:last-child)::after {
-  content: " > ";
-}
-
-ul.breadcrumbs li:last-child {
-  font-weight: bold;
-}
-
-ul.breadcrumbs li a {
-  text-decoration: none;
-  color: var(--link-color);
-}
-
-ul.breadcrumbs li a:hover {
-  text-decoration: underline;
-}
-
-/* Projects Custom Post Type Fields */
-
-.project-type {
-  font-weight: 700;
-}
-
-.project-tech-pills{
-  background: var(--tech-stack);
-  padding: .25rem 1rem;
-  margin-top: 2rem;
-}
-
-ul.project-tech-list {
-  list-style: none;
-  padding-left: 1rem;
-  padding-top: .5em;
-}
-
-li.project-tech-item {
-  display: inline-block;
-  margin-right: .75rem;
-  font-weight: 600;
-}
-
-h3 .project-image-link {
-  text-decoration: none;
+.tech-stack h4 {
+  padding: 2rem;
+  /* border: 1px solid var(--tech-stack); */
+  background: var(--primary-light);
+  border-radius: 10px;
+  flex-grow: 1;
+  text-align: center;
 }
 
 /* Contacts Page */
@@ -493,22 +356,12 @@ h3 .project-image-link {
     width: 225px;
     height: 225px;
   }
-
   .nav-link {
     font-weight: 600;
     font-size: 1.15rem;
   }
-
   .nav-link.active {
     font-weight: 700;
-  }
-
-  .site-main {
-    padding: 3rem 0 3rem;
-  }
-
-  .blog-generic-content img {
-    min-width: 400px;
   }
 }
 
@@ -532,26 +385,7 @@ h3 .project-image-link {
   .featured-second-col {
     flex: 2;
   }
-
   .featured-second-col h3 {
     margin-top: 0rem;
-  }
-
-  /* Blog MQs */
-  .blog-generic-content {
-    flex-direction: row-reverse;
-    margin-top: 0.5rem;
-  }
-
-  .blog-generic-content img {
-    display: block;
-    width: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin: 0;
-  }
-  .blog-generic-content + p {
-    margin-top: 1rem;
-    text-align: right;
   }
 }

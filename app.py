@@ -5,10 +5,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return render_template('index.html')
+  return render_template('index.html', projects=projects)
 
 @app.route('/projects')
-def projects():
+def show_projects():
   return render_template('projects.html', projects=projects)
 
 @app.route('/contact')
@@ -16,4 +16,4 @@ def contact():
   return render_template('contact.html')
 
 if __name__ == '__main__':
-  app.run(debug = True, port = 3000, host='localhost')
+  app.run(debug = False, port = 3000, host='localhost')

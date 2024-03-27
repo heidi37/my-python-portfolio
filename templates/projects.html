@@ -1,121 +1,31 @@
-{% extends 'layout.html' %} {% block content %}
-{% include 'header.html' %}
-<main><div class="container">
-  <h1>projects</h1>
-  <div class="featured-project mt-5 mb-5">
-    <div class="featured-first-col">
-      <span class="post-image-rounded"
-        ><a href=""
-          ><img
-            src=""
-            alt="" /></a
-      ></span>
-    </div>
-    <div class="featured-second-col">
-      <h3></h3>
-      <div class="mt-2">
-        <span class="year-pill"></span>
-        <span class="project-type"></span>
-      </div>
-      <p class="mt-2">
-      </p>
-      <p class="mt-2">
-        <a href=""
-          >Project &raquo;</a
-        >
-        <a href=""
-          >Repo &raquo;</a
-        >
-      </p>
-    </div>
-  </div>
+{% extends 'layout.html' %} {% block content %} {% include 'header.html' %}
+<main>
+  <div class="container">
+    <h1>projects</h1>
 
-  <div class="featured-project mt-5 mb-5">
-    <div class="featured-first-col">
-      <span class="post-image-rounded"
-        ><a href="https://heidifryzell.com/i2i/"
-          ><img
-            src="/static/images/i2i-768x526.png"
-            alt="screen shot of Inspiration to Independence(i2i) website" /></a
-      ></span>
-    </div>
-    <div class="featured-second-col">
-      <h3>i2i</h3>
-      <div class="mt-2">
-        <span class="year-pill">2024</span>
-        <span class="project-type">Static Website</span>
+    {% for project in projects %}
+    <div class="featured-project mt-5 mb-5">
+      <div class="featured-first-col">
+        <span class="post-image-rounded"
+          ><a href=""
+            ><img src="{{ project.image }}" alt="{{ project.name}}" /></a
+        ></span>
       </div>
-      <p class="mt-2">
-        This static website was built with a target audience of older adults and
-        their loved ones. Simplicity and ease of navigation were the foremost
-        requirements.
-      </p>
-      <p class="mt-2">
-        <a href="http://heidi-wp-portfolio.local/projects/i2i-website/"
-          >Project &raquo;</a
-        >
-      </p>
-    </div>
-  </div>
-
-  <div class="featured-project mt-5 mb-5">
-    <div class="featured-first-col">
-      <span class="post-image-rounded"
-        ><a href="https://netlify-pets-udemy.netlify.app/"
-          ><img
-            src="/static/images/pet-adoption-768x526.png"
-            alt="screenshot of pet adoption full stack web application"
-           /></a
-      ></span>
-    </div>
-    <div class="featured-second-col">
-      <h3>Pet Adoption</h3>
-      <div class="mt-2">
-        <span class="year-pill">2024</span>
-        <span class="project-type">Web Application</span>
+      <div class="featured-second-col">
+        <h3 class="mb-3">{{project.name}}</h3>
+        <div class="mt-3">
+          {% for tech in project.techs %}
+          <span class="pill">{{ tech }}</span>
+          {% endfor %}
+        </div>
+        <p class="mt-2">{{ project. description}}</p>
+        <p>
+          <a class="button button-small d-inline-block" href="{{ project.live }}">Project &raquo;</a>
+          <a class="button button-small d-inline-block" href="{{ project.repo }}">Repo &raquo;</a>
+        </p>
       </div>
-      <p class="mt-2">
-        A full-stack web application with all the features to run a pet adoption
-        agency website.
-      </p>
-      <p class="mt-2">
-        <a href="http://heidi-wp-portfolio.local/projects/pet-adoption-app/"
-          >Project &raquo;</a
-        >
-      </p>
     </div>
+    {% endfor %}
   </div>
-
-  <div class="featured-project mt-5 mb-5">
-    <div class="featured-first-col">
-      <span class="post-image-rounded"
-        ><a href="https://sticky-note-2024.netlify.app/"
-          ><img
-            src="/static/images/sticky-notes-768x526.png"
-            class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-            alt="screenshot of digital sticky notes"
-          </a></span>
-    </div>
-    <div class="featured-second-col">
-      <h3>Sticky Notes</h3>
-      <div class="mt-2">
-        <span class="year-pill">2021</span>
-        <span class="project-type">Web Application</span>
-      </div>
-      <p class="mt-2">
-        Say goodbye to cluttered paper sticky notes with this eco-friendly
-        application that not only saves time and trees. Developed using React,
-        this modern note-taking app&hellip;
-      </p>
-      <p class="mt-2">
-        <a href="http://heidi-wp-portfolio.local/projects/sticky-note-app/"
-          >Project &raquo;</a
-        >
-      </p>
-    </div>
-  </div>
-
-</div>
 </main>
-{% include 'footer.html' %}
-{% endblock %}
+{% include 'footer.html' %} {% endblock %}
