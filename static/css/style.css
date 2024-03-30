@@ -9,7 +9,7 @@
   --headline: #4b6572;
   --body-text: #222222;
   --code: #d63384;
-  --tech-stack: #ffc1078b;
+  --tech-stack: #ffe56f;
 }
 
 /* Base Styles */
@@ -193,10 +193,6 @@ button.navbar-toggler {
 
 /* Home Page */
 
-main {
-  margin-top: 8rem;
-}
-
 .header--hero {
   display: flex;
   flex-direction: column;
@@ -287,6 +283,10 @@ main {
   text-align: center;
 }
 
+.tech-stack h4:nth-child(odd) {
+  background-color: var(--tech-stack);
+}
+
 /* Contacts Page */
 
 .contact-top {
@@ -366,7 +366,7 @@ main {
     flex-direction: row;
     gap: 5rem;
     max-width: 900px;
-    margin: 2rem auto;
+    margin: 8rem auto;
   }
   .img--headshot-wrapper::after {
     top: 0.75rem;
