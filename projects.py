@@ -16,12 +16,20 @@ projects = [
     "live": "https://sticky-note-2024.netlify.app/",
     "repo": "https://github.com/heidi37/sticky-notes-2024"
   },
+  {
+    "image": "/static/images/random-dog-image-768x526.png",
+    "name": "Random Dog Photos",
+    "techs": ["javascript", "css", "html", "API"],
+    "description": "A single page application that retrieves random dog photos based on the user's selection of breed. The breed list and the photos are pulled dynamically from the Dog CEO API.",
+    "live": "https://heidifryzell.com/random-dog-photo/",
+    "repo": "https://github.com/heidi37/random-dog-photo"
+  },
     {
     "image": "/static/images/guess-the-word@2x-768x524.jpg",
     "name": "Guess The Word",
     "techs": ["javascript", "css", "html"],
     "description": "This is an interactive game written with JavaScript. I used array iteration to compare the array string of the answer with the array string of the guesses. This was built with Vanilla JavaScript, no libraries.",
     "live": "https://heidifryzell.com/guess-the-word/",
-    "repo": ""
+    "repo": "https://github.com/heidi37/guess-the-word"
   }
 ]
