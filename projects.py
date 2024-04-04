@@ -25,6 +25,14 @@ projects = [
     "repo": "https://github.com/heidi37/random-dog-photo"
   },
     {
+    "image": "static/images/bitcoin-current-price-768x526.png",
+    "name": "Bitcoin Current Price Checker",
+    "techs": ["javascript", "css", "html", "API"],
+    "description": "A single page application that retrieves the current price of Bitcoin in the users choice of EUR, GBP or USD. The prices are pulled dynamically from the CoinDesk API",
+    "live": "https://heidifryzell.com/bitcoin-current-price/",
+    "repo": "https://github.com/heidi37/bitcoin-current-price"
+  },
+    {
     "image": "/static/images/guess-the-word@2x-768x524.jpg",
     "name": "Guess The Word",
     "techs": ["javascript", "css", "html"],
