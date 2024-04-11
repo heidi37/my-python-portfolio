@@ -154,6 +154,26 @@ footer p {
   margin: 0;
 }
 
+footer a {
+  text-decoration: none;
+}
+
+footer .fa-terminal{
+  animation: terminal-animate 1.5s infinite;
+}
+
+@keyframes terminal-animate {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .button {
   text-decoration: none;
   color: white;
