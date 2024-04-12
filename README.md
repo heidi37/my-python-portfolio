@@ -25,3 +25,5 @@ projects = [
 I also wrote a little bit of JavaScript and included the Bootstrap library to expedite the building of some components like the top navigation.
 
 In this newer version on my portfolio I am featuring more applications that are dynamic. Some utilize databases while others pull data from API's.
+
+[Visit My Python Portfolio](https://heidis-python-portfolio.onrender.com/)
