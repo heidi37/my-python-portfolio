@@ -1,12 +1,20 @@
 projects = [
   {
+    "image": "static/images/tenzies_768x526.png",
+    "name": "Tenzies",
+    "techs": ["react", "css", "jsx", "netlify"],
+    "description": "This is a single page application dice game built with React. It was a project from the Scrimba Frontend Developer Career path. The game functionality is to have a way to select dice to lock them in place and to keep rolling until all the dice are locked in and matching.",
+    "live": "https://tenzies-app-scrimba.netlify.app/",
+    "repo": "https://github.com/heidi37/tenzies",
+    "featured": True
+  },
+  {
     "image": "/static/images/let-do-brunch-title-768x526.png",
     "name": "Let's Do Brunch!",
     "techs": ["python", "flask", "css", "bootstrap", "html", "sql"],
     "description": "This is my final project from the popular Harvard CS50 course taught by David Malan. It is a full stack app with sqlite database. The app allows users to plan a brunch and hopefully prevent too many people from bringing doughnuts.",
     "live": "https://heidi37.pythonanywhere.com/",
     "repo": "https://github.com/heidi37/cs50-final-project",
-    "featured": True
   },
   {
     "image": "/static/images/sticky-notes-768x526.png",

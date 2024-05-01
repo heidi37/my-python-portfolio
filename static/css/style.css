@@ -251,11 +251,14 @@ button.navbar-toggler {
 }
 
 .featured-first-col img {
+  border: 1px solid rgba(0, 0, 0, 0.094);
+  border-radius: 10px;
   transition: transform 0.3s ease;
 }
 
 .featured-first-col:hover img {
   transform: scale(1.05);
+  border: 1px solid #fff;
 }
 
 .featured-project {
