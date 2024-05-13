@@ -1,18 +1,26 @@
 projects = [
   {
+    "image": "static/images/quizzical_768x526.png",
+    "name": "Quizzical",
+    "techs": ["react", "css", "api", "netlify", "vite"],
+    "description": "A  single page React trivia application. The app connects to the Open Triva Database API to generate 5 random general knowledge questions. I worked form a Figma comp but enlarged some fonts for usability",
+    "live": "https://quizzical-triva.netlify.app/",
+    "repo": "https://github.com/heidi37/quizzical",
+    "featured": True
+  },
+  {
     "image": "static/images/tenzies_768x526.png",
     "name": "Tenzies",
     "techs": ["react", "css", "jsx", "netlify"],
-    "description": "This is a single page application dice game built with React. It was a project from the Scrimba Frontend Developer Career path. The game functionality is to have a way to select dice to lock them in place and to keep rolling until all the dice are locked in and matching.",
+    "description": "A  single page application dice game built with React. It was a project from the Scrimba Frontend Developer Career path. The game functionality is to have a way to select dice to lock them in place and to keep rolling until all the dice are locked in and matching.",
     "live": "https://tenzies-app-scrimba.netlify.app/",
     "repo": "https://github.com/heidi37/tenzies",
-    "featured": True
   },
   {
     "image": "/static/images/let-do-brunch-title-768x526.png",
     "name": "Let's Do Brunch!",
     "techs": ["python", "flask", "css", "bootstrap", "html", "sql"],
-    "description": "This is my final project from the popular Harvard CS50 course taught by David Malan. It is a full stack app with sqlite database. The app allows users to plan a brunch and hopefully prevent too many people from bringing doughnuts.",
+    "description": "My final project from the popular Harvard CS50 course taught by David Malan. It is a full stack app with sqlite database. The app allows users to plan a brunch and hopefully prevent too many people from bringing doughnuts.",
     "live": "https://heidi37.pythonanywhere.com/",
     "repo": "https://github.com/heidi37/cs50-final-project",
   },
@@ -44,7 +52,7 @@ projects = [
     "image": "/static/images/guess-the-word@2x-768x524.jpg",
     "name": "Guess The Word",
     "techs": ["javascript", "css", "html"],
-    "description": "This is an interactive game written with JavaScript. I used array iteration to compare the array string of the answer with the array string of the guesses. This was built with Vanilla JavaScript, no libraries.",
+    "description": "An interactive game written with JavaScript. I used array iteration to compare the array string of the answer with the array string of the guesses. This was built with Vanilla JavaScript, no libraries.",
     "live": "https://heidifryzell.com/guess-the-word/",
     "repo": "https://github.com/heidi37/guess-the-word"
   }
