@@ -4,7 +4,9 @@
 
 ## Description:
 
-In 2024 it was time for a portfolio refresh. I built my [2021 portfolio](https://heidifryzell.com/heidi-2021-portfolio/) as a static site using only HTML and CSS. For the new portfolio I still manually coded the HTML and CSS but this site is dynamically generated using Python and Flask. This type of site I can't host on Github pages for free but I was able to find free hosting on [render.com](https://render.com). You can visit my portfolio on their servers at [heidis-python-portfolio.onrender.com](https://heidis-python-portfolio.onrender.com/). Unfortunately it takes a about 20-30 seconds to spin up the server my site is hosted on. But it is free Python app hosting!
+In 2024 it was time for a portfolio refresh. I built my [2021 portfolio](https://heidifryzell.com/heidi-2021-portfolio/) as a static site using only HTML and CSS. For the new portfolio I still manually coded the HTML and CSS but this site is dynamically generated using Python and Flask. 
+
+[Visit My Live Portfolio](https://heidis-python-portfolio.onrender.com/).
 
 I know my portfolio could easily be a static site but I wanted to practice building a Flask app. Also I enjoy adding the portfolio projects by just adding another project dictionary to the data list.
 
