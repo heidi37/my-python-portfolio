@@ -29,8 +29,6 @@ I also wrote a little bit of JavaScript and included the Bootstrap library to ex
 In this newer version on my portfolio I am featuring more applications that are dynamic. Some utilize databases while others pull data from API's.
 
 ### Tech Used:
-- HTML
-- CSS
 
 <img src="https://img.shields.io/badge/HTML-black?style=flat-square&logo=html5" alt="HTML5 badge" height="50"> <img src="https://img.shields.io/badge/CSS-black?style=flat-square&logo=css3" alt="CSS3 badge" height="50"> <img src="https://img.shields.io/badge/bootstrap-black?style=flat-square&logo=bootstrap" alt="bootstrap badge" height="50"> <img src="https://img.shields.io/badge/javascript-black?style=flat-square&logo=javascript" alt="javascript badge" height="50"> <img src="https://img.shields.io/badge/python-black?style=flat-square&logo=python" alt="python badge" height="50"> <img src="https://img.shields.io/badge/flask-black?style=flat-square&logo=flask" alt="flask badge" height="50"> <img src="https://img.shields.io/badge/jinja-black?style=flat-square&logo=jinja" alt="jinja badge" height="50">
 
