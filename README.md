@@ -57,7 +57,7 @@ pip install -r requirements.txt
 ```
 python3 app.py
 ```
-7. When you are done working in the vitual enironment deactive it using the command:
+7. When you are done working in the virtual environment deactivate it using the command:
 ```
 deactivate
 ```
