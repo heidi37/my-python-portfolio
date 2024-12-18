@@ -50,7 +50,7 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-6. Run the application locall
+6. Run the application locally
 ```
 python3 app.py
 ```
