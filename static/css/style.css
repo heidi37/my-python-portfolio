@@ -310,9 +310,16 @@ button.navbar-toggler {
   background-color: var(--tech-stack);
 }
 
+/* About Page */
+.about-top p{
+  width: 90%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
 /* Contacts Page */
 
-.contact-top {
+.contact-top, .about-top {
   background: var(--primary-light);
   padding: 3rem 2rem 3rem;
   h2 {
@@ -358,7 +365,7 @@ button.navbar-toggler {
   padding-bottom: 0.55rem;
 }
 
-.icon.coffee {
+.icon.big-icon {
   font-size: 6rem;
   margin-left: 1.25rem;
 }

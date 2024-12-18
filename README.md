@@ -29,3 +29,32 @@ I also wrote a little bit of JavaScript and included the Bootstrap library to ex
 In this newer version on my portfolio I am featuring more applications that are dynamic. Some utilize databases while others pull data from API's.
 
 [Visit My Python Portfolio](https://heidis-python-portfolio.onrender.com/)
+
+## Run Code Locally:
+1. Clone Repo to your machine
+2. Navigate into cloned repo
+3. Create a virtual envionment
+```
+python3 -m venv venv
+```
+⚠️ **Warning**: When I run this command I have to unblock the homebrew program in my anti-virus software
+
+
+4. Activate virtual environment
+```
+source venv/bin/activate
+```
+(After activation, your terminal prompt should change to show the virtual environment’s name, e.g., (venv))
+
+5. Install dependencies
+```
+pip install -r requirements.txt
+```
+6. Run the application locall
+```
+python3 app.py
+```
+7. When you are done working in the vitual enironment deactive it using the command:
+```
+deactivate
+```
