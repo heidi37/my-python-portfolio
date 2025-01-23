@@ -61,3 +61,21 @@ python3 app.py
 ```
 deactivate
 ```
+## Related Projects
+<table border="1">
+  <tr>
+    <td style="text-align: center;"><a href="https://nature-journal.onrender.com/">Bird Journal App</a> | <a href="https://github.com/heidi37/bird-journal">Repo</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://nature-journal.onrender.com/"><img width="300" src="https://github.com/heidi37/bird-journal/raw/main/public/images/screenshot.png" alt="screenshot of Bird Journal web application" /></a></td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <td style="text-align: center;"><a href="https://heidi37.pythonanywhere.com/">Let's Do Brunch App</a> | <a href="https://github.com/heidi37/cs50-final-project">Repo</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://heidi37.pythonanywhere.com/"><img width="300" src="https://github.com/heidi37/cs50-final-project/raw/main/static/images/screenshot.png" alt="screenshot of Let's Do Brunch web application" /></a></td>
+  </tr>
+</table>
