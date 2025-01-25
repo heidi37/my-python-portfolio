@@ -1,12 +1,28 @@
 projects = [
   {
+    "image": "static/images/bird-journal-768x526.png",
+    "name": "Bird Journal",
+    "techs": ["node.js", "express", "mongoose", "mongoDB", "ejs", "javascript", "css", "bootstrap", "html", "cloudinary", "passport", "multer"],
+    "description": "A full-stack web application designed to help users track their wildlife observations. The application allows users to record, view, and manage their bird sightings efficiently. This project utilizes the Model-View-Controller (MVC) architecture.",
+    "live": "https://bird-journal.onrender.com/",
+    "repo": "https://github.com/heidi37/bird-journal",
+    "featured": True
+  },
+    {
+    "image": "/static/images/let-do-brunch-title-768x526.png",
+    "name": "Let's Do Brunch!",
+    "techs": ["python", "flask", "css", "bootstrap", "html", "sql"],
+    "description": "My final project from the popular Harvard CS50 course taught by David Malan. It is a full stack app with sqlite database. The app allows users to plan a brunch and hopefully prevent too many people from bringing doughnuts.",
+    "live": "https://heidi37.pythonanywhere.com/",
+    "repo": "https://github.com/heidi37/cs50-final-project",
+  },{
     "image": "static/images/quizzical_768x526.png",
     "name": "Quizzical",
     "techs": ["react", "css", "api", "netlify", "vite"],
-    "description": "A  single page React trivia application. The app connects to the Open Triva Database API to generate 5 random general knowledge questions. I worked form a Figma comp but enlarged some fonts for usability",
+    "description": "A single page React trivia application. The app connects to the Open Triva Database API to generate 5 random general knowledge questions. I worked form a Figma comp but enlarged some fonts for usability.",
     "live": "https://quizzical-triva.netlify.app/",
     "repo": "https://github.com/heidi37/quizzical",
-    "featured": True
+    "featured": False
   },
   {
     "image": "static/images/tenzies_768x526.png",
@@ -15,14 +31,6 @@ projects = [
     "description": "A  single page application dice game built with React. It was a project from the Scrimba Frontend Developer Career path. The game functionality is to have a way to select dice to lock them in place and to keep rolling until all the dice are locked in and matching.",
     "live": "https://tenzies-app-scrimba.netlify.app/",
     "repo": "https://github.com/heidi37/tenzies",
-  },
-  {
-    "image": "/static/images/let-do-brunch-title-768x526.png",
-    "name": "Let's Do Brunch!",
-    "techs": ["python", "flask", "css", "bootstrap", "html", "sql"],
-    "description": "My final project from the popular Harvard CS50 course taught by David Malan. It is a full stack app with sqlite database. The app allows users to plan a brunch and hopefully prevent too many people from bringing doughnuts.",
-    "live": "https://heidi37.pythonanywhere.com/",
-    "repo": "https://github.com/heidi37/cs50-final-project",
   },
   {
     "image": "/static/images/sticky-notes-768x526.png",
