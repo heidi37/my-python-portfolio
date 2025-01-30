@@ -2,8 +2,8 @@ projects = [
   {
     "image": "static/images/bird-journal-768x526.png",
     "name": "Bird Journal",
-    "techs": ["node.js", "express", "mongoose", "mongoDB", "ejs", "javascript", "css", "bootstrap", "html", "cloudinary", "passport", "multer"],
-    "description": "A full-stack web application designed to help users track their wildlife observations. The application allows users to record, view, and manage their bird sightings efficiently. This project utilizes the Model-View-Controller (MVC) architecture.",
+    "techs": ["node.js", "express", "mongoose", "mongoDB", "ejs", "javascript", "css", "bootstrap", "html", "cloudinary", "gemini API", "passport", "multer"],
+    "description": "A full-stack web application designed to help users track their wildlife observations. The application allows users to record, view, and manage their bird sightings efficiently. This project utilizes the Google Gemini API for AI suggestions based on the uploaded photo.",
     "live": "https://bird-journal.onrender.com/",
     "repo": "https://github.com/heidi37/bird-journal",
     "featured": True
